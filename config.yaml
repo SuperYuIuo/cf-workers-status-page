@@ -42,7 +42,7 @@ monitors:
   - id: bitwarden
     name: 密码库
     description: '秘密就是秘密。'
-    url: 'https://1mb.lol/'
+    url: 'https://1mb.lol/#/login/'
     method: GET
     expectStatus: 200
     
