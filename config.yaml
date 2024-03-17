@@ -1,6 +1,6 @@
 settings:
-  title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  title: '我的服务'
+  url: 'https://www.odobo.lol/' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: tanzhen # unique identifier
     name: 探针
-    description: 'You write code. They handle the rest.' # default=empty
+    description: '除了梦想，还有星辰大海' # default=empty
     url: 'https://www.511666.xyz/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -26,13 +26,14 @@ monitors:
   
   - id: alist
     name: Alist
+    description: '存下了所有，却没存下自己。'
     url: 'https://www.1kb.lol/'
     method: GET
     expectStatus: 200
     
   - id: memos
     name: Memos
-    description: 'Built for anything connected to the Internet.'
+    description: '记录人生，记录自己。'
     url: 'https://oimio.lol/'
     method: GET
     expectStatus: 200
@@ -40,24 +41,28 @@ monitors:
 
   - id: bitwarden
     name: 密码库
+    description: '秘密就是秘密。'
     url: 'https://1mb.lol/'
     method: GET
     expectStatus: 200
     
-  - id: bitwarden
+  - id: onedrive
     name: OneDrive E5
+    description: '也许有一天，它终将会离我而去。'
     url: 'https://1tb.lol/'
     method: GET
     expectStatus: 200
     
   - id: dujiaoshuka
     name: 独角发卡
+    description: '展现的是你所需要的一切。'
     url: 'https://shop.1tb.lol/'
     method: GET
     expectStatus: 200
     
   - id: qinglong
     name: 青龙
+    description: '脚本。'
     url: 'https://ql.1kb.lol/'
     method: GET
     expectStatus: 200
