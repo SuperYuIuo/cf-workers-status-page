@@ -49,7 +49,7 @@ monitors:
   - id: onedrive
     name: OneDrive E5
     description: '也许有一天，它终将会离我而去。'
-    url: 'https://1tb.lol/'
+    url: 'https://1tb.lol/Admin/Login?ReturnUrl=%2F/'
     method: GET
     expectStatus: 200
     
