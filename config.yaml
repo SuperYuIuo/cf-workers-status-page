@@ -15,25 +15,49 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
+  - id: tanzhen # unique identifier
+    name: 探针
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+    url: 'https://www.511666.xyz/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
-
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
+  
+  - id: alist
+    name: Alist
+    url: 'https://www.1kb.lol/'
+    method: GET
+    expectStatus: 200
+    
+  - id: memos
+    name: Memos
     description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+    url: 'https://oimio.lol/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: bitwarden
+    name: 密码库
+    url: 'https://1mb.lol/'
+    method: GET
+    expectStatus: 200
+    
+  - id: bitwarden
+    name: OneDrive E5
+    url: 'https://1tb.lol/'
+    method: GET
+    expectStatus: 200
+    
+  - id: dujiaoshuka
+    name: 独角发卡
+    url: 'https://shop.1tb.lol/'
+    method: GET
+    expectStatus: 200
+    
+  - id: qinglong
+    name: 青龙
+    url: 'https://ql.1kb.lol/'
     method: GET
     expectStatus: 200
